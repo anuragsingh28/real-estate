@@ -17,6 +17,8 @@ a:visited{
 div.breadcrumbs {
     background: #30caa0;
     color: #10284e;
+    classes: ('wide', 'extrapretty'),
+       
 }
 
 div.breadcrumbs a {
