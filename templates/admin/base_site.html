@@ -1,0 +1,16 @@
+{% extends "admin/base.html" %}
+{% load static %}
+
+{% block branding %}
+
+<h1 id="head">
+<img src="{%static 'img/logo.png'%}" alt="Anurag" height="50" width="80" class="brand_img"> Anurag Real Estate
+</h1>
+
+{% endblock branding %}
+
+{% block extrastyle %}
+<link rel="stylesheet" href="{% static 'admin/css/admin.css' %}">
+
+
+{% endblock extrastyle %}
