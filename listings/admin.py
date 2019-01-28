@@ -1,5 +1,5 @@
-import djangocms_admin_style
 from django.contrib import admin
+
 from .models import Listing
 
 
