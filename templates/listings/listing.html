@@ -34,7 +34,7 @@
       </nav>
     </div>
   </section>
-
+ {% include "partial/_alerts.html" %}
   <!-- Listing -->
   <section id="listing" class="py-4">
     <div class="container">
@@ -171,8 +171,8 @@
         <div class="modal-body">
           <form action=" {% url 'contact' %} " method="POST">
             {% csrf_token %}
-            {% if user.authenticated %}
-              <input type="hidden" name="user_id" id="user_id" value="{{user.id}}">
+            {% if user.is_authenticated %}
+              <input type="hidden" name="user_id"  value="{{ user.id }}">
             {% else %}
               <input type="hidden" name="user_id" id="user_id" value="0">
             {% endif %}

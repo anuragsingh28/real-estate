@@ -136,3 +136,11 @@ MESSAGE_TAGS = {
     messages.ERROR: 'danger',
     
 }
+
+# Email config
+
+EMAIL_HOST = 'smtp.gmail.com'
+PORT = 587
+EMAIL_HOST_USER = 'it@aminfoweb.com'
+EMAIL_HOST_PASSWORD = 'cbz@90()'
+EMAIL_USE_TLS = True
