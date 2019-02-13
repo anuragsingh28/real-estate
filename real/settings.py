@@ -139,8 +139,8 @@ MESSAGE_TAGS = {
 
 # Email config
 
-EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST = 'smtp.xyz.com'
 PORT = 587
-EMAIL_HOST_USER = 'it@aminfoweb.com'
-EMAIL_HOST_PASSWORD = 'cbz@90()'
+EMAIL_HOST_USER = 'xyz@xyz.com'
+EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = True
